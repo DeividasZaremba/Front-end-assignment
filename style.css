@@ -1,0 +1,105 @@
+header {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div a {
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+
+header div img {
+    width: 100px;
+    height: 40px;
+}
+
+.heading {
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading form {
+    display: flex;
+}
+
+.heading form input {
+    flex: 1;
+    height: 20px;
+}
+
+.heading form button {
+    height: 25px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.row {
+    clear: both;
+    margin: 20px auto;
+    width: 500px;
+}
+
+#comment-list div {
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form {
+    position: relative;
+}
+
+.flash-message {
+    position: absolute;
+    float: right;
+    vertical-align: right;
+    margin: -40px auto;
+    right: 0px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.success {
+    background-color: rgb(136, 202, 136);
+    color: white;
+}
+
+.error {
+    background-color: rgb(231, 68, 68);
+    color: white;
+}
